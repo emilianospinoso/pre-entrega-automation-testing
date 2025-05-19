@@ -1,4 +1,4 @@
-from calculadora import sumar, restar, multiplicar, dividir
+from ..calculadora import sumar, restar, multiplicar, dividir
 import pytest
 
 def test_sumar_positivo():
