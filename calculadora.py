@@ -1,5 +1,4 @@
-for i in range(5):
-    print(i)
+
 def sumar(a, b):
     return a + b
 
