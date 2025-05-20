@@ -16,7 +16,7 @@ Selenium WebDriver: Para la automatización de la interfaz web
 Git/GitHub: Para control de versiones y compartir el código
 
 Estructura del Proyecto
-pre-entrega-final/
+pre_entrega_modelo/
 ├── conftest.py # Configuraciones adicionales para pytest
 ├── helpers.py # Funciones auxiliares reutilizables
 ├── test_saucedemo.py # Casos de prueba automatizados
@@ -37,9 +37,11 @@ Asegúrate de que el WebDriver esté en tu PATH o especifica su ubicación en el
 
 Ejecución de las Pruebas
 Para ejecutar todas las pruebas:
-bashpython -m pytest pre-entrega-final/test_saucedemo.py -v
+python3 -m pytest pre_entrega_modelo/test_saucedemo.py -v
+
 Para generar un reporte HTML:
-bashpython -m pytest pre-entrega-final/test_saucedemo.py -v --html=reporte.html
+python3 -m pytest pre_entrega_modelo/test_saucedemo.py -v --html=reporte.html
+
 Funcionalidades Implementadas
 
 1. Automatización de Login
